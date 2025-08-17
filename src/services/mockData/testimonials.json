@@ -1,0 +1,50 @@
+[
+  {
+    "Id": 1,
+    "farmerName": "Sarah Johnson",
+    "farmLocation": "Cedar Falls, Iowa",
+    "cropType": "Corn & Soybeans",
+    "results": "AgroSense Pro helped us increase our corn yield by 28% last season. The soil monitoring system showed us exactly when and how much to irrigate. We saved $15,000 in water costs alone.",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face"
+  },
+  {
+    "Id": 2,
+    "farmerName": "Mike Rodriguez",
+    "farmLocation": "Bakersfield, California",
+    "cropType": "Almonds & Pistachios",
+    "results": "The weather monitoring system is incredible. We get alerts 2 days before frost events, giving us time to protect our trees. This technology has saved us from losing entire crops twice now.",
+    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
+  },
+  {
+    "Id": 3,
+    "farmerName": "Jennifer Chen",
+    "farmLocation": "Salinas Valley, California",
+    "cropType": "Organic Vegetables",
+    "results": "As an organic farmer, precision is everything. AgroSense Pro's soil sensors help me optimize nutrients naturally. We've reduced fertilizer costs by 35% while increasing our organic certification yields.",
+    "image": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop&crop=face"
+  },
+  {
+    "Id": 4,
+    "farmerName": "David Thompson",
+    "farmLocation": "Lubbock, Texas",
+    "cropType": "Cotton & Wheat",
+    "results": "The drought monitoring features are game-changing in Texas. We can now make informed decisions about when to plant and when to harvest. Our cotton quality has never been better.",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face"
+  },
+  {
+    "Id": 5,
+    "farmerName": "Lisa Anderson",
+    "farmLocation": "Grand Island, Nebraska",
+    "cropType": "Corn & Cattle",
+    "results": "Managing both crops and livestock is complex, but AgroSense Pro makes it simple. The integrated dashboard shows me everything I need to know. We've improved our overall farm efficiency by 40%.",
+    "image": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face"
+  },
+  {
+    "Id": 6,
+    "farmerName": "Robert Kim",
+    "farmLocation": "Fargo, North Dakota",
+    "cropType": "Soybeans & Sugar Beets",
+    "results": "The predictive analytics feature helped us optimize our planting schedule and avoid the late spring freeze. We had our best sugar beet harvest in 15 years thanks to the precise soil monitoring data.",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "title": "Getting Started with Smart Farming Technology",
+    "description": "A comprehensive guide for farmers new to agricultural technology. Learn the basics of sensor deployment, data interpretation, and ROI calculation.",
+    "category": "guides",
+    "type": "Getting Started Guide",
+    "readTime": "15 min read",
+    "date": "Jan 12, 2024",
+    "author": "Dr. Emily Watson",
+    "authorImage": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=50&h=50&fit=crop&crop=face",
+    "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=400&h=250&fit=crop"
+  },
+  {
+    "Id": 2,
+    "title": "Case Study: 35% Water Savings on 2,000 Acre Corn Farm",
+    "description": "Detailed analysis of how Johnson Farms in Iowa implemented precision irrigation and achieved remarkable water conservation results.",
+    "category": "case-studies",
+    "type": "Case Study",
+    "readTime": "12 min read",
+    "date": "Jan 8, 2024",
+    "author": "Mark Stevens",
+    "authorImage": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=50&h=50&fit=crop&crop=face",
+    "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=400&h=250&fit=crop"
+  },
+  {
+    "Id": 3,
+    "title": "Maximizing Crop Yields with Data-Driven Decisions",
+    "description": "Learn how to interpret soil data, weather patterns, and crop health metrics to make informed decisions that boost your harvest.",
+    "category": "webinars",
+    "type": "Webinar Recording",
+    "readTime": "45 min watch",
+    "date": "Jan 5, 2024",
+    "author": "Sarah Johnson",
+    "authorImage": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=50&h=50&fit=crop&crop=face",
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=250&fit=crop"
+  },
+  {
+    "Id": 4,
+    "title": "The Future of Precision Agriculture: AI and Machine Learning",
+    "description": "Technical whitepaper exploring how artificial intelligence is revolutionizing farming practices and what it means for the future of agriculture.",
+    "category": "whitepapers",
+    "type": "Technical Whitepaper",
+    "readTime": "25 min read",
+    "date": "Dec 28, 2023",
+    "author": "Dr. Michael Chen",
+    "authorImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop&crop=face",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop"
+  },
+  {
+    "Id": 5,
+    "title": "Soil Health Monitoring: Best Practices and Common Mistakes",
+    "description": "Essential guide to understanding soil sensors, interpreting data, and avoiding costly mistakes in soil management.",
+    "category": "guides",
+    "type": "Best Practices Guide",
+    "readTime": "18 min read",
+    "date": "Dec 22, 2023",
+    "author": "Lisa Rodriguez",
+    "authorImage": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=50&h=50&fit=crop&crop=face",
+    "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=400&h=250&fit=crop"
+  },
+  {
+    "Id": 6,
+    "title": "ROI Analysis: Smart Farming Technology Investment Returns",
+    "description": "Live webinar discussing real-world ROI data from farms using smart agriculture technology over the past 3 years.",
+    "category": "webinars", 
+    "type": "Live Webinar",
+    "readTime": "60 min session",
+    "date": "Dec 15, 2023",
+    "author": "David Kim",
+    "authorImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=50&h=50&fit=crop&crop=face",
+    "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=400&h=250&fit=crop"
+  }
+]

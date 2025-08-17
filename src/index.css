@@ -1,0 +1,28 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'react-toastify/dist/ReactToastify.css';
+
+/* Custom toast styles */
+.Toastify__toast {
+  font-family: Inter, system-ui, sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #43A047, #2E7D32);
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #E53935, #C62828);
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #29B6F6, #1565C0);
+}
+
+.Toastify__toast-container {
+  font-size: 14px;
+  z-index: 9999;
+}

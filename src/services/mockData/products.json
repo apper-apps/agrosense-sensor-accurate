@@ -1,0 +1,92 @@
+[
+  {
+    "Id": 1,
+    "name": "AgroWeather Pro",
+    "description": "Professional weather monitoring station with advanced sensors for temperature, humidity, rainfall, wind speed, and soil temperature. Get real-time alerts and 7-day forecasts.",
+    "features": [
+      "Real-time weather monitoring",
+      "7-day weather forecasting",
+      "Mobile app notifications",
+      "Historical data analytics",
+      "Custom alert settings",
+      "Solar powered operation"
+    ],
+    "price": 299,
+    "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=100&h=100&fit=crop&crop=center"
+  },
+  {
+    "Id": 2,
+    "name": "SoilSense Monitor",
+    "description": "Advanced soil monitoring system that tracks moisture, pH, nutrients, and temperature. Optimize irrigation and fertilization with precision data.",
+    "features": [
+      "Multi-depth soil sensors",
+      "pH and nutrient analysis",
+      "Irrigation recommendations", 
+      "Fertilizer optimization",
+      "Root zone monitoring",
+      "Wireless connectivity"
+    ],
+    "price": 449,
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=100&h=100&fit=crop&crop=center"
+  },
+  {
+    "Id": 3,
+    "name": "CropVision AI",
+    "description": "AI-powered crop monitoring using satellite imagery and drone integration. Detect diseases, pests, and growth patterns early for maximum yield protection.",
+    "features": [
+      "Satellite crop monitoring",
+      "Disease detection AI",
+      "Pest identification alerts",
+      "Growth pattern analysis",
+      "Yield prediction models",
+      "Treatment recommendations"
+    ],
+    "price": 699,
+    "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=100&h=100&fit=crop&crop=center"
+  },
+  {
+    "Id": 4,
+    "name": "IrrigationMaster",
+    "description": "Smart irrigation control system with automated scheduling based on soil moisture, weather data, and crop requirements. Save water and improve yields.",
+    "features": [
+      "Automated irrigation control",
+      "Zone-based scheduling",
+      "Water usage tracking",
+      "Mobile remote control",
+      "Weather integration",
+      "Flow rate monitoring"
+    ],
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=100&h=100&fit=crop&crop=center"
+  },
+  {
+    "Id": 5,
+    "name": "FarmAnalytics Dashboard",
+    "description": "Comprehensive farm management platform that integrates all your sensors and provides actionable insights through advanced analytics and reporting.",
+    "features": [
+      "Unified data dashboard",
+      "Custom report generation",
+      "Predictive analytics",
+      "Performance benchmarking",
+      "Cost analysis tools",
+      "Multi-farm management"
+    ],
+    "price": 199,
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=100&h=100&fit=crop&crop=center"
+  },
+  {
+    "Id": 6,
+    "name": "LivestockTracker Pro",
+    "description": "Advanced livestock monitoring system with GPS tracking, health monitoring, and behavioral analysis. Keep your animals healthy and productive.",
+    "features": [
+      "GPS location tracking",
+      "Health monitoring sensors",
+      "Behavioral pattern analysis",
+      "Breeding management",
+      "Feed optimization alerts",
+      "Veterinary integration"
+    ],
+    "price": 549,
+    "image": "https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=100&h=100&fit=crop&crop=center"
+  }
+]
