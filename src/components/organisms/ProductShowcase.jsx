@@ -92,9 +92,8 @@ const ProductShowcase = () => {
                   price: product.price_c,
                   image: product.image_c
                 }} 
-                onLearnMore={handleLearnMore} 
+onLearnMore={handleLearnMore} 
               />
-            >
               <ProductCard product={product} onLearnMore={handleLearnMore} />
             </motion.div>
           ))}
