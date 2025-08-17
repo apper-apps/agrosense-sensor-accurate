@@ -91,7 +91,14 @@ const Hero = () => {
             className="relative"
           >
             <div className="space-y-6">
-              <WeatherWidget weatherData={weatherData} />
+<WeatherWidget 
+                weatherData={weatherData ? {
+                  temperature: weatherData.temperature_c,
+                  humidity: weatherData.humidity_c,
+                  rainfall: weatherData.rainfall_c,
+                  windSpeed: weatherData.wind_speed_c
+                } : null} 
+              />
               
               {/* Additional dashboard preview */}
               <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-gray-100 shadow-lg">

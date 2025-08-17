@@ -115,7 +115,7 @@ const Solutions = () => {
           )}
           
           {!loading && !error && products.length > 0 && (
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {products.map((product, index) => (
                 <motion.div
                   key={product.Id}
@@ -123,7 +123,17 @@ const Solutions = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                 >
-                  <ProductCard product={product} onLearnMore={handleLearnMore} />
+                  <ProductCard 
+                    product={{
+                      ...product,
+                      name: product.Name,
+                      description: product.description_c,
+                      features: product.features_c ? product.features_c.split(',') : [],
+                      price: product.price_c,
+                      image: product.image_c
+                    }} 
+                    onLearnMore={handleLearnMore} 
+                  />
                 </motion.div>
               ))}
             </div>

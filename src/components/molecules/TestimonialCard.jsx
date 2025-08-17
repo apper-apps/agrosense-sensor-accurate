@@ -10,7 +10,7 @@ const TestimonialCard = ({ testimonial }) => {
     >
       <Card className="p-8 h-full">
         <div className="flex items-center mb-6">
-          <img
+<img
             src={testimonial.image}
             alt={testimonial.farmerName}
             className="w-16 h-16 rounded-full object-cover mr-4"

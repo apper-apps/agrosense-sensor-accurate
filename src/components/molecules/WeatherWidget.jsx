@@ -25,7 +25,7 @@ const WeatherWidget = ({ weatherData }) => {
             <div className="flex items-center justify-center mb-2">
               <ApperIcon name="Thermometer" className="w-6 h-6 text-accent-500" />
             </div>
-            <p className="text-2xl font-bold text-gray-900">{weatherData.temperature}°F</p>
+<p className="text-2xl font-bold text-gray-900">{weatherData.temperature}°F</p>
             <p className="text-sm text-gray-600">Temperature</p>
           </div>
 

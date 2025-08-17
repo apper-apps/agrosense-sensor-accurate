@@ -39,10 +39,9 @@ const Resources = () => {
 
     loadResources();
   }, []);
-
-  const filteredResources = selectedCategory === "all" 
+const filteredResources = selectedCategory === "all" 
     ? resources 
-    : resources.filter(resource => resource.category === selectedCategory);
+    : resources.filter(resource => resource.category_c === selectedCategory);
 
   const retryLoading = () => {
     const loadResources = async () => {
@@ -115,7 +114,7 @@ const Resources = () => {
           )}
           
           {!loading && !error && filteredResources.length > 0 && (
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {filteredResources.map((resource, index) => (
                 <motion.div
                   key={resource.Id}
@@ -126,12 +125,12 @@ const Resources = () => {
                   <Card className="h-full overflow-hidden group cursor-pointer">
                     <div className="relative">
                       <img 
-                        src={resource.image} 
-                        alt={resource.title}
+                        src={resource.image_c} 
+                        alt={resource.title_c}
                         className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                       />
                       <div className="absolute top-4 left-4">
-                        <Badge variant="primary">{resource.type}</Badge>
+                        <Badge variant="primary">{resource.type_c}</Badge>
                       </div>
                       <div className="absolute top-4 right-4">
                         <div className="bg-white/90 backdrop-blur-sm rounded-full p-2">
@@ -142,27 +141,27 @@ const Resources = () => {
                     
                     <div className="p-6">
                       <div className="flex items-center text-sm text-gray-500 mb-3">
-                        <span>{resource.readTime}</span>
+                        <span>{resource.read_time_c}</span>
                         <span className="mx-2">•</span>
-                        <span>{resource.date}</span>
+                        <span>{resource.date_c}</span>
                       </div>
                       
                       <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
-                        {resource.title}
+                        {resource.title_c}
                       </h3>
                       
                       <p className="text-gray-600 mb-4 line-clamp-3">
-                        {resource.description}
+                        {resource.description_c}
                       </p>
                       
                       <div className="flex items-center justify-between">
                         <div className="flex items-center text-sm text-gray-500">
                           <img 
-                            src={resource.authorImage} 
-                            alt={resource.author}
+                            src={resource.author_image_c} 
+                            alt={resource.author_c}
                             className="w-6 h-6 rounded-full mr-2"
                           />
-                          <span>{resource.author}</span>
+                          <span>{resource.author_c}</span>
                         </div>
                         
                         <Button 

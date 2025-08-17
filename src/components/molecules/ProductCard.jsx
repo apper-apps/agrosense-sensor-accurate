@@ -13,7 +13,7 @@ const ProductCard = ({ product, onLearnMore }) => {
     >
       <Card className="p-8 h-full flex flex-col">
         <div className="relative mb-6">
-          <div className="w-16 h-16 bg-gradient-to-br from-primary-100 to-primary-200 rounded-xl flex items-center justify-center mb-4">
+<div className="w-16 h-16 bg-gradient-to-br from-primary-100 to-primary-200 rounded-xl flex items-center justify-center mb-4">
             <img src={product.image} alt={product.name} className="w-10 h-10" />
           </div>
           <Badge variant="primary" className="absolute -top-2 -right-2">
@@ -27,7 +27,7 @@ const ProductCard = ({ product, onLearnMore }) => {
         <div className="mb-6">
           <h4 className="text-sm font-semibold text-gray-900 mb-3">Key Features:</h4>
           <ul className="space-y-2">
-            {product.features.slice(0, 3).map((feature, index) => (
+            {product.features && product.features.slice(0, 3).map((feature, index) => (
               <li key={index} className="flex items-center text-sm text-gray-600">
                 <ApperIcon name="Check" className="w-4 h-4 text-primary-500 mr-2" />
                 {feature}
